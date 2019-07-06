@@ -4,7 +4,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
 ## android离线打包环境端
    - ### build.gradle 配置
      - 添加客服云SDK及其他依赖 
-        ```
+        ```gradle
         /*环信 start*/
         //环信客服SDK
         implementation 'com.hyphenate:kefu-easeui-android:latest.release'
@@ -20,7 +20,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
         *注意：这里的support-v4，appcompat，recyclerview版本需要和compileSdkVersion统一*
 
      - 增加jniLibs的配置 
-        ```
+        ```gradle
         sourceSets{
             main(){
                 jniLibs.srcDirs=['libs']
@@ -43,7 +43,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
        ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/4.jpg)
        ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/5.jpg)
      - 在AndroidManifest.xml中注册聊天页面的activity  
-        ```
+        ```xml
         <!-- 聊天页面 -->
         <activity
             android:name=".ChatActivity"
@@ -58,7 +58,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
       修改DEFAULT_CUSTOMER_ACCOUNT：IM服务号获取地址：kefu.easemob.com，“管理员模式 > 渠道管理 > 手机APP”页面的关联的“IM服务号”   
       修改DEFAULT_TENANT_ID：tenantId获取地址：kefu.easemob.com，“管理员模式 > 设置 > 企业信息”页面的“租户ID”  
       修改TITLE_NAME：聊天页面title，比如“阿里云客服”  
-        ```
+        ```java
         public static final String DEFAULT_CUSTOMER_APPKEY = "1421190705061167#kefuchannelapp19515";
         public static final String DEFAULT_CUSTOMER_ACCOUNT = "kefuchannelimid_128577";
         public static final String DEFAULT_TENANT_ID = "19515";
@@ -68,7 +68,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
       为了搭配app主色调，强行修改下面的值就可以了  
       ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/6.jpg)
 ## uni-app端启动客服页面的方法
-```
+```js
 //获取当前Activity  
 var main = plus.android.runtimeMainActivity();
 // 通过5 sdk 插件的invoke方法起调对象方法
