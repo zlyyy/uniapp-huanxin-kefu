@@ -18,9 +18,10 @@ public class Constant {
 
 	public static final String DEFAULT_CUSTOMER_APPKEY = "1421190705061167#kefuchannelapp19515";
 	public static final String DEFAULT_CUSTOMER_ACCOUNT = "kefuchannelimid_128577";
+	public static final String DEFAULT_TENANT_ID = "19515";
+	public static final String TITLE_NAME = "阿里云客服";
 	public static final String DEFAULT_ACCOUNT_PWD = "123456";
 	public static final String DEFAULT_NICK_NAME = "";
-	public static final String DEFAULT_TENANT_ID = "19515";
 	public static final String DEFAULT_PROJECT_ID = "306713";
 
 	public static final int MESSAGE_TO_DEFAULT = 0;
@@ -50,7 +51,7 @@ public class Constant {
 	public static final int MODIFY_INDEX_LEAVE_EMAIL = 8;
 	public static final int MODIFY_INDEX_LEAVE_CONTENT = 9;
 
-	public static final String TITLE_NAME = "阿里云客服";
+
 
 	public static final String ORDER_INFO = "order_info";
 }
