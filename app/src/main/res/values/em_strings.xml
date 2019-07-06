@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_ack_msg">Read</string>
+    <string name="text_delivered_msg">Delivered</string>
+    <string name="button_send">Send</string>
+    <string name="attach_location">Location</string>
+    <string name="attach_short_cut_message">Messages</string>
+    <string name="attach_call_video">Call Video</string>
+    <string name="attach_evaluation">Evaluation</string>
+    <string name="location_message">The location information</string>
+    <string name="please_check">key validation error!Please on AndroidManifest.xml file check the key set</string>
+    <string name="text_fahuo">How long you will be able to deliver?</string>
+    <string name="text_weight">What should I wear, 165 or 46 kg?</string>
+    <string name="text_color">Are there any other colors?</string>
+    <string name="text_kuaidi">What is you send Courier?</string>
+    <string name="unable_to_get_loaction">Unable to get to your location information!</string>
+    <string name="cant_find_pictures">"Can't find pictures"</string>
+    <string name="system_is_regist">System is automatically registered users for you...</string>
+    <string name="is_contact_customer">Being contact customer service, please wait...</string>
+    <string name="is_contact_customer_failure_seconed">Contact customer service failure:</string>
+    <string name="shopping">Store</string>
+    <string name="setting">Setting</string>
+    <string name="conversation">Conversation</string>
+    <string name="qrcode">QR Code</string>
+    <string name="qrcode_permission_fail">Open Camera fail，please check permission！</string>
+    <string name="qrcode_success">QrCode scanning success</string>
+    <string name="qrcode_invalid">QrCode Invalid</string>
+    <string name="qrcode_fail">QrCode scanning fail</string>
+    <string name="customernumber">IM service No.</string>
+    <string name="connect_customer">Contact us</string>
+    <string name="feedback">Feedback</string>
+    <string name="history_record">History record</string>
+    <string name="set_nick">Set Nick</string>
+    <string name="set_tenantId">TenantId</string>
+    <string name="set_leave_messageid">Leave Message ID</string>
+    <string name="login_user_nick">User Nick</string>
+    <string name="customer_account">Customer Service Account</string>
+    <string name="appkey">AppKey</string>
+    <string name="pop_pre_sales">Pre_Sales</string>
+    <string name="pop_after_sales">After_Sales</string>
+    <!-- demo -->
+    <string name="register_user_fail">register user failed!</string>
+
+    <string name="leave_title">Note</string>
+    <string name="leave_name">Name:</string>
+    <string name="leave_phone">Phone:</string>
+    <string name="leave_email">Email:</string>
+    <string name="leave_theme">Theme:</string>
+    <string name="leave_detail">Detail:</string>
+    <string name="leave_content">Input content</string>
+    <string name="leave_sending">Sending...</string>
+
+    <string name="delete_message">Delete message</string>
+    <string name="copy_message">Copy message</string>
+    <string name="delete_voice">Delete voice</string>
+    <string name="delete">Delete</string>
+    <string name="Making_sure_your_location">Making sure your location..</string>
+    <string name="em_tip_wating">Waiting...</string>
+    <string name="em_tip_request_fail">request fail!</string>
+    <string name="title_satifisfaction_eval">Satisfaction evaluation</string>
+    <string name="nick_service">Service Nick</string>
+    <string name="tip_eval">Please make evaluation to my service</string>
+    <string name="hint_leave_message">Leave message</string>
+    <string name="hint_input_evaluation">input text evaluation</string>
+    <string name="tip_btn_sumbit">Submit</string>
+    <string name="tip_btn_evaluation">Evaluation</string>
+
+    <string name="empty_view_tip">No data here.</string>
+    <string name="audio_download_suc">Audio file download successful</string>
+    <string name="file_download_fail">File download failed</string>
+    <string name="file_cannot_be_opened">File cannot be opened</string>
+    <string name="user_already_exists">The user is already existed.</string>
+    <string name="no_register_authority">No registration authority.</string>
+    <string name="file_upload_fail">File upload fail</string>
+    <string name="login_user_noti">Please login again.</string>
+    <string name="comment_suc">Add comment successful.</string>
+    <string name="comment_fail">Add comment fail.</string>
+    <string name="file_uploading">File is uploading.</string>
+    <string name="comment_content_not_null">Comment content cannot be empty.</string>
+    <string name="please_wait_noti">Please waiting for a moment.</string>
+    <string name="send_suc">Send successful</string>
+    <string name="app_key_cannot_be_empty">Appkey cannot be empty!</string>
+    <string name="cus_account_cannot_be_empty">Customer account cannot be empty!</string>
+    <string name="app_key_format_wrong">Appkey format error!</string>
+    <string name="app_key_modify_fail">Appkey modify fail!</string>
+    <string name="short_cut_msg">Short cut message</string>
+    <string name="comment_load_fail">Comments load fail.</string>
+
+    <!-- Note Detail start-->
+    <string name="note_detail">Note Detail</string>
+    <string name="note_reply">Reply</string>
+    <string name="note_id">No. </string>
+    <string name="note_subject">Subject:</string>
+    <string name="note_name">Nick Name:</string>
+    <string name="note_content">Content:</string>
+    <string name="note_phone">Phone:</string>
+    <string name="note_qq">QQ:</string>
+    <string name="note_weibo">Weibo:</string>
+    <string name="note_email">Email:</string>
+    <string name="note_responses">Responses</string>
+    <!-- Note Detail end-->
+
+    <!-- New Comment start -->
+    <string name="new_comment_title">Reply</string>
+    <string name="new_comment_send">Send</string>
+    <string name="new_comment_hint">Type your reply here</string>
+    <string name="new_comment_attach">Add attachment</string>
+    <string name="new_comment_talk">Hold to Talk</string>
+    <!-- New Leave Msg end -->
+
+    <!-- call start -->
+    <string name="The_other_is_not_online">The peer is not online.</string>
+    <string name="Is_not_yet_connected_to_the_server">Not connect to server.</string>
+    <string name="illegal_user_name">Illegal user name.</string>
+    <string name="The_other_is_on_the_phone">The peer is on the phone</string>
+    <string name="can_not_connect_chat_server_connection">Cannot connect to server</string>
+    <string name="not_connect_to_server">Not connect to server, please try again later</string>
+    <string name="Are_connected_to_each_other">Connecting to peer..</string>
+    <string name="have_connected_with">Connected to the peer and waiting for the peer to accept</string>
+    <string name="In_the_call">In the call..</string>
+    <string name="network_unavailable">The network connection is not available, please check the network</string>
+    <string name="network_unstable">Network unstable</string> 
+    <string name="no_call_data">No call data</string>
+    <string name="The_other_party_refused_to_accept">The call was refused</string> 
+    <string name="Connection_failure">Connection failed!</string>
+    <string name="The_other_party_is_not_online">The peer is not online now, please try later</string>
+    <string name="The_other_is_on_the_phone_please">The peer is busy now, please try later</string>
+    <string name="The_other_party_did_not_answer">The peer did not answer</string>
+    <string name="hang_up">Hang up</string>
+    <string name="The_other_is_hang_up">The peer has ended the call</string>
+    <string name="did_not_answer">did not answer</string>
+    <string name="Has_been_cancelled">Cancelled</string>
+    <string name="Refused">Refused</string>
+    <string name="call_version_inconsistent">Both call version are inconsistent</string>
+    <string name="hanging_up">Hanging up..</string>
+    <string name="answering">answering...</string>
+    <string name="tip_multi_video_calling">Multiple people video call...</string>
+
+    <string name="tip_video_calling">on the Calling...(%d)</string>
+    <string name="tip_video_in">received video call...</string>
+	<!-- call end -->
+
+    <string name="setting_name">name:</string>
+    <string name="setting_org">org:</string>
+    <string name="setting_appname">appName:</string>
+    <string name="setting_number">number:</string>
+    <string name="setting_confirm">confirm:</string>
+    <string name="setting_status">status:</string>
+    <string name="setting_time">time:</string>
+
+    <string name="modify_save">Save</string>
+    <string name="network_error">network error!</string>
+	<string name="file_download_title">File download</string>
+
+	<string name="em_example1_text">Crackie leather bomber</string>
+    <string name="em_example1_text_description">November sales: 3399</string>
+    <string name="em_example2_text">Birkin Bag</string>
+    <string name="em_example2_text_description">November sales: 20</string>
+    <string name="em_example3_text">Jeffrey campbell duice pump</string>
+    <string name="em_example3_text_description">November sales: 435</string>
+    <string name="em_example4_text">Cartier</string>
+    <string name="em_example4_text_description">November sales: 10</string>
+    <string name="em_notice_sending">Sending</string>
+    <string name="order_number">Order number</string>
+
+	<string name="message_type_voice">[Voice]</string>
+    <string name="message_type_video">[Video]</string>
+    <string name="message_type_location">[Location]</string>
+    <string name="message_type_file">[File]</string>
+    <string name="message_type_image">[Image]</string>
+    <string name="message_type_eval_request">[Eval Request]</string>
+    <string name="message_type_order_info">[Order Info]</string>
+    <string name="message_type_visitor_track">[Visitor Track]</string>
+    <string name="message_type_form">[Form]</string>
+    <string name="message_type_articles">[Articles]</string>
+    <string name="message_type_robot">[Robot Menu]</string>
+    <string name="message_type_tocs">[To Custom Service]</string>
+    <string name="message_type_custom_emoji">[Custom Emoji icon]</string>
+	<string name="no_selected_tag_noti">Please select one tag！</string>
+    <string name="video_call_pause">VIDEO_PAUSE</string>
+    <string name="video_call_resume">VIDEO_RESUME</string>
+    <string name="video_call_voice_pause">VOICE_PAUSE</string>
+    <string name="voice_call_voice_resume">VOICE_RESUME</string>
+    <string name="chatrow_eval_btn_text">Evaluation</string>
+    <string name="noti_text_expression">[Expression]</string>
+    <string name="test_track_title1">test_track1</string>
+    <string name="test_track_title2">test_track2</string>
+    <string name="test_order_title1">test_order1</string>
+    <string name="test_order_title2">test_order2</string>
+	<string name="chat_row_form_title">Click to input form message.</string>
+    <string name="chat_row_satisfaction_content">Please make evaluation to my service!</string>
+    <string name="network_error_notice">Network has error, please retry!</string>
+    <string name="tag">TAG</string>
+</resources>
