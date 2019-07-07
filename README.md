@@ -1,5 +1,7 @@
 # 介绍
 uni-app接入android原生环信客服，支持文字、语音、表情、拍照、图片、视频、文件，进入客服页面时可设置访客信息、发送订单或者轨迹消息，基于环信客服访客端demo集成。
+# 效果图
+![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/7.jpg)
 # 集成步骤
 ## android离线打包环境端
    - ### build.gradle 配置
