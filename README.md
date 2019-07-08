@@ -67,7 +67,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
         public static final String TITLE_NAME = "阿里云客服";
         ```
    - ### 修改标题栏颜色  
-      为了搭配app主色调，强行修改下面的值就可以了  
+      为了搭配app主色调，强行修改下面的值就可以了。把工程切到project模式下，然后在EXternal Libraries目录下找到对应的依赖包，然后修改 
       ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/6.jpg)
 ## uni-app端启动客服页面的方法
 ```js
