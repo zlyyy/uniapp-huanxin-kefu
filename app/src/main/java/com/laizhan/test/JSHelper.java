@@ -13,6 +13,14 @@ import com.hyphenate.helpdesk.easeui.util.IntentBuilder;
 //工具类，用于js调用java
 public class JSHelper {
     private static final String TAG = "JSHelper";
+
+    public static void initConfig(String appKey, String im, String tenantId, String title){
+        Constant.DEFAULT_CUSTOMER_APPKEY = appKey;
+        Constant.DEFAULT_CUSTOMER_ACCOUNT = im;
+        Constant.DEFAULT_TENANT_ID = tenantId;
+        Constant.TITLE_NAME = title;
+    }
+
     public static void startActivity(String uname, String upwd, Activity activity, String visitorInfo, String orderInfo) {
 
         if (ChatClient.getInstance().isLoggedInBefore()) {
