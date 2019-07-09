@@ -5,18 +5,10 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
 # 集成步骤
 ## android离线打包环境端
    - ### build.gradle 配置
-     - 添加客服云SDK及其他依赖 
+     - 添加子module依赖 
         ```gradle
         /*环信 start*/
-        //环信客服SDK
-        implementation 'com.hyphenate:kefu-easeui-android:latest.release'
-        //EaseUI中 头像获取用到了glide，请添加glide库
-        implementation 'com.github.bumptech.glide:glide:4.9.0'
-        //EaseUI中，fragment用到了android-support-v4包
-        //其他版本也可以
-        implementation 'com.android.support:appcompat-v7:28.0.0'
-        implementation 'com.android.support:recyclerview-v7:28.0.0'
-        implementation 'com.android.support:support-v4:28.0.0'
+        implementation project(':easeui')
         /*环信 end*/
         ``` 
         *注意：这里的support-v4，appcompat，recyclerview版本需要和compileSdkVersion统一*
@@ -36,8 +28,6 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
      - 拷贝em_strings.xml的中英文资源文件到res的values下面
      - 拷贝em_row_sent_order.xml、em_row_sent_track.xml到res的layout下面  
        ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/2.jpg)
-     - 拷贝不同架构的so库文件到libs下面  
-       ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/3.jpg)
    - ### AndroidManifest.xml配置
      - 修改AndroidManifest.xml的application标签的android:name属性为android:name=".MyApplication"   
      
@@ -67,7 +57,7 @@ uni-app接入android原生环信客服，支持文字、语音、表情、拍照
         public static final String TITLE_NAME = "阿里云客服";
         ```
    - ### 修改标题栏颜色  
-      为了搭配app主色调，强行修改下面的值就可以了。把工程切到project模式下，然后在EXternal Libraries目录下找到对应的依赖包，然后修改 
+      为了搭配app主色调，修改easeui这个子module下面的色值就可以了。
       ![http://docs.easemob.com/cs/start](https://raw.githubusercontent.com/zlyyy/uniapp-huanxin-kefu/master/images/6.jpg)
 ## uni-app端启动客服页面的方法
 ```js
