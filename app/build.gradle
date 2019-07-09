@@ -40,6 +40,17 @@ android {
         }
     }
 
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion '28.0.0'
+                }
+            }
+        }
+    }
+
 }
 repositories {
     flatDir {
@@ -49,10 +60,10 @@ repositories {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation fileTree(include: ['*.aar'], dir: 'libs')
-//    implementation 'com.android.support:appcompat-v7:26.1.0'
+    //    implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     /*uniapp所需库-----------------------开始*/
-//    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    //    implementation 'com.android.support:recyclerview-v7:26.1.0'
     implementation 'com.alibaba.android:bindingx-core:1.0.3'
     implementation 'com.alibaba.android:bindingx_weex_plugin:1.0.3'
     implementation 'com.squareup.okhttp:okhttp:2.3.0'
@@ -61,16 +72,15 @@ dependencies {
     implementation 'com.facebook.fresco:fresco:0.12.0'
     /*uniapp所需库-----------------------结束*/
     // 基座需要，必须添加
-
     /*环信 start*/
     //环信客服SDK
-    implementation 'com.hyphenate:kefu-easeui-android:latest.release'
+    //    implementation 'com.hyphenate:kefu-easeui-android:latest.release'
     //EaseUI中 头像获取用到了glide，请添加glide库
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     //EaseUI中，fragment用到了android-support-v4包
     //其他版本也可以
+    /*环信 end*/
+    implementation project(':easeui')
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
-    implementation 'com.android.support:support-v4:28.0.0'
-    /*环信 end*/
 }

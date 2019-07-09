@@ -5,3 +5,4 @@ local.properties
 app/build
 app/release
 .idea
+kefu-easeui/build
